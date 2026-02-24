@@ -60,7 +60,7 @@ export 'src/message_information/cometchat_message_information.dart';
 export 'src/message_information/cometchat_message_information_controller.dart';
 export 'src/message_information/message_information_style.dart';
 
-export 'package:cometchat_uikit_shared/cometchat_uikit_shared.dart';
+export 'package:cometchat_uikit_shared/cometchat_uikit_shared.dart' hide CometChatMessagePreview , CometChatMessagePreviewStyle , CometChatAIConversationSummaryStyle , CometChatAIConversationSummaryView;
 
 export 'package:cometchat_sdk/cometchat_sdk.dart';
 export 'package:cometchat_sdk/handlers/call_listener.dart';
